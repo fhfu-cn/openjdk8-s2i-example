@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"   
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">  
+  
+  <pluginGroups>
+<!-- 	<pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+	 -->  </pluginGroups>  
+  <proxies></proxies>  
+  
+  <servers>  
+<!--       <server>  
+      <id>nexus-releases</id>  
+      <username>maven</username>  
+      <password>kGSFp.4u9L301-Cl</password>  
+    </server>  
+    <server>  
+      <id>nexus-snapshots</id>  
+      <username>maven</username>  
+      <password>kGSFp.4u9L301-Cl</password>  
+    </server>   -->
+  </servers>  
+  
+  <mirrors>   
+    
+		<mirror>
+     <id>aliyunmaven</id>
+     <mirrorOf>central</mirrorOf>
+     <name>∞¢¿Ô‘∆π´π≤≤÷ø‚</name>
+     <url>https://maven.aliyun.com/repository/central</url>
+    </mirror>
+    <mirror>
+      <id>repo1</id>
+      <mirrorOf>central</mirrorOf>
+      <name>central repo</name>
+      <url>http://repo1.maven.org/maven2/</url>
+    </mirror>
+    <mirror>
+     <id>aliyunmaven</id>
+     <mirrorOf>apache snapshots</mirrorOf>
+     <name>∞¢¿Ô‘∆∞¢≈¡∆Ê≤÷ø‚</name>
+     <url>https://maven.aliyun.com/repository/apache-snapshots</url>
+    </mirror>
+	 
+  </mirrors>   
+   
+  <profiles>  
+   <!-- <profile>  
+      <id>nexus</id>  
+      <repositories>  
+        <repository>  
+          <id>nexus-releases</id>  
+          <url>http://nexus-releases</url>  
+          <releases><enabled>true</enabled></releases>  
+          <snapshots><enabled>true</enabled></snapshots>  
+        </repository>  
+        <repository>  
+          <id>nexus-snapshots</id>  
+          <url>http://nexus-snapshots</url>  
+          <releases><enabled>true</enabled></releases>  
+          <snapshots><enabled>true</enabled></snapshots>  
+        </repository>  
+      </repositories>  
+      <pluginRepositories>  
+         <pluginRepository>  
+                <id>nexus-releases</id>  
+                 <url>http://nexus-releases</url>  
+                 <releases><enabled>true</enabled></releases>  
+                 <snapshots><enabled>true</enabled></snapshots>  
+               </pluginRepository>  
+               <pluginRepository>  
+                 <id>nexus-snapshots</id>  
+                  <url>http://nexus-snapshots</url>  
+                <releases><enabled>true</enabled></releases>  
+                 <snapshots><enabled>true</enabled></snapshots>  
+             </pluginRepository>  
+         </pluginRepositories>  
+    </profile> -->
+  </profiles>  
+  
+  <activeProfiles>  
+      <activeProfile>nexus</activeProfile>  
+  </activeProfiles>  
+   
+</settings>  
